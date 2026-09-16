@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer'
 import ScrollTop from './ScrollTop'
+import WhatsAppFloat from './WhatsAppFloat'
 import Seo from './Seo'
 
 export default function Layout() {
@@ -20,6 +21,7 @@ export default function Layout() {
         <Outlet />
       </main>
       <Footer />
+      <WhatsAppFloat />
       <ScrollTop />
     </>
   )

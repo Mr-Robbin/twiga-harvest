@@ -3,6 +3,7 @@ export const business = {
   email: 'info@twigaharvest.co.tz',
   phone: '0717436153',
   phoneTel: '+255717436153',
+  whatsapp: '255717436153',
   poBox: 'P.O. Box 10118',
   address: {
     region: 'Arusha',
@@ -59,29 +60,25 @@ export const products = [
     name: 'Rice',
     tag: 'Staple grain',
     description: 'Quality rice for homes, shops, and bulk buyers.',
-    image:
-      'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/images/rice.webp',
   },
   {
     name: 'Beans',
     tag: 'Pulses',
     description: 'Fresh, clean beans ready for retail and wholesale.',
-    image:
-      'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/images/beans.webp',
   },
   {
     name: 'Maize',
     tag: 'Cereals',
     description: 'Reliable maize supply for cooking, milling, and trade.',
-    image:
-      'https://images.unsplash.com/photo-1551754655-cd27e38d2076?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/images/maize.webp',
   },
   {
     name: 'Flour',
     tag: 'Food products',
     description: 'Everyday flour and related food stock for your shelves.',
-    image:
-      'https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/images/supply4.webp',
   },
   {
     name: 'Cooking Oil',
@@ -134,14 +131,12 @@ export const works = [
   {
     title: 'Cereal Supply for Local Traders',
     tags: ['Cereals', 'Wholesale'],
-    image:
-      'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/images/maizesup.webp',
   },
   {
     title: 'Market Food Distribution',
     tags: ['Food Retail', 'Arusha'],
-    image:
-      'https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/images/beans.webp',
   },
   {
     title: 'Farm Feed Partnership',
@@ -158,8 +153,7 @@ export const works = [
   {
     title: 'Community Food Access',
     tags: ['Retail', 'Community'],
-    image:
-      'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=800&q=80',
+    image: '/assets/images/godown.webp',
   },
   {
     title: 'Arusha Agri Network',

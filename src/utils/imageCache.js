@@ -3,22 +3,23 @@ import { products, works, heroSlides } from '../data/business'
 export const siteImages = [
   '/images/logo.png',
   '/favicon.png',
+  '/assets/images/rice.webp',
+  '/assets/images/beans.webp',
+  '/assets/images/maize.webp',
+  '/assets/images/maize2.webp',
+  '/assets/images/maizesup.webp',
+  '/assets/images/mchele.webp',
+  '/assets/images/godown.webp',
+  '/assets/images/supply1.webp',
+  '/assets/images/supply2.webp',
+  '/assets/images/supply3.webp',
+  '/assets/images/supply4.webp',
   ...heroSlides.map((item) => item.image),
   ...products.map((item) => item.image),
   ...works.map((item) => item.image),
-  'https://images.unsplash.com/photo-1586201375761-83865001e31c?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=700&q=80',
-  'https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?auto=format&fit=crop&w=800&q=80',
-  'https://images.unsplash.com/photo-1500595046743-cd271d694d30?auto=format&fit=crop&w=700&q=80',
-  'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1600&q=80',
-  'https://images.unsplash.com/photo-1574943320219-553eb213f72d?auto=format&fit=crop&w=1600&q=80',
-  'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1600&q=80',
-  'https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=1600&q=80',
-  'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=1200&q=80',
-  'https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80',
 ]
 
-const CACHE_NAME = 'twiga-harvest-images-v1'
+const CACHE_NAME = 'twiga-harvest-images-v2'
 const memoryCache = new Map()
 
 function uniqueUrls(urls) {
